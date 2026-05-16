@@ -3,7 +3,8 @@ import sys
 
 # 重定向输出到文件
 log_file = "test_log.txt"
-print(f"将输出重定向到: {log_file}")
+print(f"将输出重定向到----: {log_file}")
+
 
 # 保存原始 stdout
 original_stdout = sys.stdout
